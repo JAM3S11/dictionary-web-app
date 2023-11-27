@@ -1,0 +1,22 @@
+.not-found{
+    text-align: center;
+}
+.not-found_emoji{
+    height: 53px
+}
+.not-found_title{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+.not-found_description{
+    font-size: 1.8rem;
+}
+
+/* Dark Theme */
+.dark .not-found_title{
+    color: var(--light-color-3);
+}
+.dark .not-found_description{
+    color: var(--light-color);
+}

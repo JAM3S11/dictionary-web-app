@@ -1,0 +1,81 @@
+.part-of-speech{
+    margin-top: 4rem;
+}
+/* .part-of-speech_content{} */
+.part-of-speech_title{
+    font-style: italic;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    color: var(--light-color);
+    font-size: 2.2rem;
+    margin-bottom: 1.8rem;
+}
+.bar{
+    display: block;
+    width: 100%;
+    border-top: 1px solid var(--light-color);
+}
+/* .part-of-speech_meanings{} */
+.part-of-speech_meanings_title{
+    font-size: 1.5rem;
+    margin-bottom: 1.4rem;
+    color: var(--light-color);
+    font-weight: normal;
+}
+.part-of-speech_meanings_list{
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    margin-bottom: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--dark-color-2);
+    list-style: none;
+    padding-left: 0;
+    margin-left: 2rem;
+}
+.part-of-speech_meanings_list li {
+    position: absolute;
+    padding-left: 2rem;
+}
+.part-of-speech_meanings_list li::before{
+    content: '.';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+.meaning_help{
+    display: block;
+    margin-top: .4rem;
+    color: var(--light-color);
+}
+.part-of-speech_synonyms{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-bottom: 1.4rem;
+}
+.part-of-speech_synonyms_title{
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+/* .part-of-speech_synonyms_content{
+    font-size: 1.6rem;
+    color: #a445ed;
+} */
+.part-of-speech_synonyms-content{
+    font-size: 1.6rem;
+    color: #a445ed;
+}
+/* Dark Theme */
+.dark .bar{
+    border-top: 1px solid var(--dark-color-3);
+}
+/* .dark .part-of-speech_meanings_list{
+    color: var(--light-color-3);
+} */
+.dark .part-of-speech_meaning_list{
+    color: var(--light-color-3);
+}
